@@ -1,0 +1,122 @@
+[
+  {
+    "Id": 1,
+    "projectId": "1",
+    "title": "Design homepage mockups",
+    "description": "Create high-fidelity mockups for the new homepage design including hero section, features, and call-to-action areas",
+    "status": "In Progress",
+    "priority": "high",
+    "assignee": "Jane Smith",
+    "dueDate": "2024-12-28T17:00:00.000Z",
+    "createdAt": "2024-12-20T08:00:00.000Z",
+    "updatedAt": "2024-12-22T14:30:00.000Z"
+  },
+  {
+    "Id": 2,
+    "projectId": "1",
+    "title": "Implement responsive navigation",
+    "description": "Build mobile-first navigation system with hamburger menu and smooth transitions",
+    "status": "Todo",
+    "priority": "medium",
+    "assignee": "John Doe",
+    "dueDate": "2024-12-30T17:00:00.000Z",
+    "createdAt": "2024-12-20T09:00:00.000Z",
+    "updatedAt": "2024-12-20T09:00:00.000Z"
+  },
+  {
+    "Id": 3,
+    "projectId": "1",
+    "title": "Content audit and optimization",
+    "description": "Review all existing content and optimize for SEO and readability",
+    "status": "Review",
+    "priority": "low",
+    "assignee": "Sarah Wilson",
+    "dueDate": "2024-12-29T17:00:00.000Z",
+    "createdAt": "2024-12-20T10:00:00.000Z",
+    "updatedAt": "2024-12-23T11:15:00.000Z"
+  },
+  {
+    "Id": 4,
+    "projectId": "1",
+    "title": "Set up analytics tracking",
+    "description": "Configure Google Analytics 4 and set up conversion tracking for key user actions",
+    "status": "Done",
+    "priority": "medium",
+    "assignee": "Mike Johnson",
+    "dueDate": "2024-12-25T17:00:00.000Z",
+    "createdAt": "2024-12-18T08:00:00.000Z",
+    "updatedAt": "2024-12-24T16:00:00.000Z"
+  },
+  {
+    "Id": 5,
+    "projectId": "2",
+    "title": "User authentication system",
+    "description": "Implement secure login/logout functionality with JWT tokens and password encryption",
+    "status": "In Progress",
+    "priority": "high",
+    "assignee": "John Doe",
+    "dueDate": "2025-01-02T17:00:00.000Z",
+    "createdAt": "2024-12-21T08:00:00.000Z",
+    "updatedAt": "2024-12-23T10:00:00.000Z"
+  },
+  {
+    "Id": 6,
+    "projectId": "2",
+    "title": "Push notification service",
+    "description": "Set up Firebase Cloud Messaging for iOS and Android push notifications",
+    "status": "Todo",
+    "priority": "medium",
+    "assignee": "Jane Smith",
+    "dueDate": "2025-01-05T17:00:00.000Z",
+    "createdAt": "2024-12-21T09:00:00.000Z",
+    "updatedAt": "2024-12-21T09:00:00.000Z"
+  },
+  {
+    "Id": 7,
+    "projectId": "2",
+    "title": "App store submission",
+    "description": "Prepare app metadata, screenshots, and submit to Apple App Store and Google Play Store",
+    "status": "Todo",
+    "priority": "low",
+    "assignee": "Sarah Wilson",
+    "dueDate": "2025-01-10T17:00:00.000Z",
+    "createdAt": "2024-12-21T10:00:00.000Z",
+    "updatedAt": "2024-12-21T10:00:00.000Z"
+  },
+  {
+    "Id": 8,
+    "projectId": "3",
+    "title": "Social media content calendar",
+    "description": "Create comprehensive content calendar for Instagram, Twitter, and LinkedIn for Q2",
+    "status": "In Progress",
+    "priority": "high",
+    "assignee": "Sarah Wilson",
+    "dueDate": "2024-12-31T17:00:00.000Z",
+    "createdAt": "2024-12-22T08:00:00.000Z",
+    "updatedAt": "2024-12-23T15:00:00.000Z"
+  },
+  {
+    "Id": 9,
+    "projectId": "3",
+    "title": "Email marketing automation",
+    "description": "Set up automated email sequences for lead nurturing and customer onboarding",
+    "status": "Todo",
+    "priority": "medium",
+    "assignee": "Mike Johnson",
+    "dueDate": "2025-01-03T17:00:00.000Z",
+    "createdAt": "2024-12-22T09:00:00.000Z",
+    "updatedAt": "2024-12-22T09:00:00.000Z"
+  },
+  {
+    "Id": 10,
+    "projectId": "3",
+    "title": "Influencer partnership outreach",
+    "description": "Identify and reach out to potential influencer partners for product promotion",
+    "status": "Review",
+    "priority": "low",
+    "assignee": "Jane Smith",
+    "dueDate": "2025-01-07T17:00:00.000Z",
+    "createdAt": "2024-12-22T10:00:00.000Z",
+    "updatedAt": "2024-12-23T12:30:00.000Z"
+  }
+]

@@ -1,0 +1,70 @@
+@import 'react-toastify/dist/ReactToastify.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: Inter, system-ui, sans-serif;
+  }
+  
+  body {
+    @apply bg-background text-gray-900;
+  }
+}
+
+@layer components {
+  .toast-container {
+    @apply !text-sm;
+  }
+  
+  .Toastify__toast {
+    @apply !rounded-lg !shadow-lg !border-0;
+  }
+  
+  .Toastify__toast--success {
+    @apply !bg-gradient-to-r !from-success !to-emerald-500 !text-white;
+  }
+  
+  .Toastify__toast--error {
+    @apply !bg-gradient-to-r !from-error !to-red-500 !text-white;
+  }
+  
+  .Toastify__toast--info {
+    @apply !bg-gradient-to-r !from-info !to-blue-500 !text-white;
+  }
+  
+  .Toastify__toast--warning {
+    @apply !bg-gradient-to-r !from-warning !to-orange-500 !text-white;
+  }
+  
+  .Toastify__close-button {
+    @apply !text-white !opacity-70;
+  }
+}
+
+@layer utilities {
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent;
+  }
+  
+  .card-shadow {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .drag-shadow {
+    box-shadow: 0 8px 25px rgba(91, 79, 232, 0.15);
+  }
+  
+  .priority-high {
+    @apply bg-gradient-to-r from-error to-red-500;
+  }
+  
+  .priority-medium {
+    @apply bg-gradient-to-r from-warning to-orange-500;
+  }
+  
+  .priority-low {
+    @apply bg-gradient-to-r from-info to-blue-500;
+  }
+}
